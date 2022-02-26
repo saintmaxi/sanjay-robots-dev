@@ -39,7 +39,8 @@ const looksrareLink = "";
 /*********************************END CONFIG************************************/
 
 if (window.ethereum == undefined) {
-    displayErrorMessage('Use a web3 enabled browser to mint!');
+    console.log('no web3 client detected')
+    // displayErrorMessage('Use a web3 enabled browser to mint!');
 }
 
 const provider = new ethers.providers.Web3Provider(window.ethereum,"any");
