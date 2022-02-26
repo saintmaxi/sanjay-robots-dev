@@ -51,11 +51,11 @@
 	transition: transform ease 300ms;
 }
 
-#top .link:hover {
+/* #top .link:hover {
   transform: translate(0, -2px);
 	transition: transform ease 300ms;
     display:inline-block;
-}
+} */
 
 
 #header, #title-section {
@@ -68,10 +68,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 25%;
     /* border-right: .25vw solid black; */
-    font-size: 2vw;
-    line-height: 2vw;
+    font-size: 1.6vw;
+    line-height: 1.6vw;
     text-align: center;
 }
 
@@ -87,7 +87,7 @@
 }
 
 #header {
-    width: 40%;
+    width: 50%;
     /* border-left: .25vw solid black; */
     display: flex;
     flex-direction: row;
@@ -96,10 +96,10 @@
 }
 
 .header-menu {
-	font-size: 2vw;
-    line-height: 2vw;
+	font-size: 1vw;
+    line-height: 1vw;
     letter-spacing: 3px;
-    width: 25%;
+    width: 14.2%;
     margin: 2%;
     text-align: center;
 /* background: linear-gradient(to bottom, 
@@ -181,7 +181,7 @@
 
 /* start about section styling */
 
-#about {
+.content-container {
     padding: 30px;
     text-align:center;
     display: flex;
@@ -189,8 +189,49 @@
     justify-content: center;
     align-items: center;
     /* background-image: url("../images/wood.png"); */
+    color: white;
+}
 
+.content-container h1  {
+    color: white;
+}
 
+.token-container {
+    width: 26%;
+    margin: 3%;
+}
+
+.roadmap-container {
+    width: 20%;
+    margin: 2%;
+}
+
+.faq-container {
+    width: 45%;
+    margin: 2%;
+    display: inline-block;
+}
+
+.faq-container h2 {
+    text-align: center;
+}
+
+.roadmap-container img {
+    width: 50%;
+}
+
+.member-container {
+    width: 15%;
+    margin: 2%;
+    display: inline-block;
+}
+
+.member-container img {
+    width: 75%;
+}
+
+.member-container p {
+    margin: 10px;
 }
 
 #about-text-desktop-1 {
@@ -249,6 +290,10 @@
 	margin-bottom: 0 !important;
 	margin-top: 0 !important;
 	text-align: center;
+}
+
+#more-team p {
+    text-align: center;
 }
 
 .team-member img {
@@ -493,16 +538,31 @@
 
     /* start about section styling */
 
-    #about {
+    .content-container {
         display: block;
         padding: 15px;
     }
 
-    #about p {
+    .content-container p  {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
     
+    .token-container, .roadmap-container, .faq-container {
+        width: 90%;
+        margin: 2%;
+        border-bottom: solid 3px white;
+    }
+
+    .member-container {
+        width: 45%;
+        margin: 2%;
+    }
+
+    .last {
+        border: none;
+    }
+
     #about-text-mobile {
         width: 95%;
         margin-left: 2.5%;

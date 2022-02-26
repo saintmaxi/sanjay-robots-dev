@@ -68,7 +68,7 @@
 
 /* start minting styling */
 
-#mint-container {
+#mint {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -78,16 +78,19 @@
     background-size: cover;
 }
 
-#mint {
+#mint-container {
     margin: 0;
     width: 45%;
     /* background-image: url(../images/sand4.png), linear-gradient(to bottom, 
     #D07C28    0%, #D07C28  100%); */
-   background-color: white;
+   background-color: black;
+   padding: 2vw;
+   color: white;
 }
 
 #mint h1 {
     margin: 0;
+    color: white;
 }
 
 #quantity-controls {
@@ -148,13 +151,14 @@
 
     /* start minting styling */
 
-    #mint-container {
+    #mint {
         /* height: initial; */
         height: 115%;
     }
 
-    #mint {
+    #mint-container {
         width: 90%;
+        padding: 2vh;
     }
 
     #mint-header {
