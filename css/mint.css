@@ -80,7 +80,7 @@
 
 #mint-container {
     margin: 0;
-    width: 45%;
+    width: 30%;
     /* background-image: url(../images/sand4.png), linear-gradient(to bottom, 
     #D07C28    0%, #D07C28  100%); */
    background-color: black;
@@ -99,7 +99,7 @@
 }
 
 #max-button {
-    width:25%;
+    width:45%;
 }
 
 #mint-button, #mint-n-stake-button {
@@ -118,7 +118,7 @@
 }
   
 .increment-button {
-    width: 15%;
+    /* width: 15%; */
     font-size: calc(25px + 3vw) !important;
     line-height: calc(25px + 3vw) !important;
     background-color: transparent;
@@ -134,6 +134,7 @@
     line-height: calc(20px + 3vw) !important;
     letter-spacing: 5px;
     font-weight: bolder;
+    text-align: center;
 }
   
 #mint-prompt {
